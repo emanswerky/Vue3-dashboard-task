@@ -1,11 +1,14 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <section>
+    <DashboardLayout>
+      <Dashboard />
+    </DashboardLayout>
+    <!-- <router-view /> -->
+  </section>
 </template>
 
+<script setup>
+import Dashboard from '/src/pages/Dashboard.vue'
+import DashboardLayout from '/src/layouts/DashboardLayout.vue'
+</script>
 <style scoped></style>
