@@ -4,12 +4,10 @@
     :class="open ? 'translate-x-0' : '-translate-x-full'"
   >
     <div class="flex h-full flex-col items-center py-6">
-      <!-- Top spacing -->
       <div class="w-[60px] h-[60px]">
         <img :src="logo" class="" />
       </div>
 
-      <!-- Main items -->
       <nav class="mt-6 flex flex-col items-center justify-center gap-4 h-full">
         <div class="md:hidden flex flex-col items-center justify-center gap-4">
           <button class="relative" v-for="a in topActions" :key="a.key">
