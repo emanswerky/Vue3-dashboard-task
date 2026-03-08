@@ -1,4 +1,3 @@
-// Sidebar Icons
 import activityIcon from '@/assets/images/side-bar-icons/activity.png'
 import layerIcon from '@/assets/images/side-bar-icons/layer.png'
 import layoutIcon from '@/assets/images/icons/layout.png'
@@ -9,13 +8,11 @@ import menuIcon from '@/assets/images/icons/menue.png'
 import settingsIcon from '@/assets/images/side-bar-icons/settings.png'
 import hrIcon from '@/assets/images/side-bar-icons/hr.jpeg'
 
-// Top Right Icons
 import bellIcon from '@/assets/images/top-nav-icons/bell.png' // غيّريها للأيقونة الصح عندك
 import slackIcon from '@/assets/images/top-nav-icons/slack.png'
 import sliders from '@/assets/images/top-nav-icons/sliders.png'
 import ai from '@/assets/images/top-nav-icons/ai.png'
 
-// ✅ Sidebar items (كل عنصر فيه icon + key + optional route)
 export const sidebarItems = [
   { key: 'layout', icon: layoutIconSideBar },
 
@@ -25,7 +22,6 @@ export const sidebarItems = [
   { key: 'settings', icon: settingsIcon },
 ]
 
-// ✅ Top tabs (Finance/Sales/HR/MGMT)
 export const topTabs = [
   { key: 'finance', label: 'FINANCE' },
   { key: 'sales', label: 'SALES' },
@@ -33,9 +29,8 @@ export const topTabs = [
   { key: 'mgmt', label: 'MGMT' },
 ]
 
-// ✅ Top right action icons (right group)
 export const topActions = [
-  { key: 'bell', icon: bellIcon, badge: 1 }, // badge optional
+  { key: 'bell', icon: bellIcon, badge: 1 },
   { key: 'slack', icon: slackIcon },
   { key: 'sliders', icon: sliders },
   { key: 'ai', icon: ai },
