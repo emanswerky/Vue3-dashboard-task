@@ -33,10 +33,10 @@
 
 <script setup>
 import kpisSection from '/src/components/kpisSection.vue'
-import RevenueExpensesChart from '/src/components/RevenueExpensesChart.vue'
+import RevenueExpensesChart from '/src/components/charts/RevenueExpensesChart.vue'
 import RightMiniCards from '/src/components/RightMiniCards.vue'
-import CashInflowOutflowCard from '/src/components/CashInflowOutflowCard.vue'
-import CashInBankCard from '@/components/CashInBankCard.vue'
-import NetFlowCard from '@/components/NetFlowCard.vue'
+import CashInflowOutflowCard from '/src/components/charts/CashInflowOutflowCard.vue'
+import CashInBankCard from '@/components/charts/CashInBankCard.vue'
+import NetFlowCard from '@/components/charts/NetFlowCard.vue'
 import ScenarioTunersSection from '@/components/ScenarioTunersSection.vue'
 </script>
