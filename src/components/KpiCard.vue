@@ -2,12 +2,9 @@
   <div
     class="bg-white rounded-2xl shadow-sm p-3 flex flex-col justify-between transition-all duration-200 hover:shadow-md"
   >
-    <!-- Top Row -->
     <p class="sm:text-[14px] text-[12px] font-semibold">
       {{ title }}
     </p>
-
-    <!-- Value -->
 
     <div v-if="secondaryValue" class="flex justify-between h-full">
       <div class="">
