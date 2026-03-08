@@ -5,12 +5,10 @@
     }}</label>
 
     <div class="relative mt-1 h-8 w-full border-t-2">
-      <!-- ✅ Track الرمادي (من البداية للنهاية) -->
       <div
         class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-[4px] rounded-full bg-slate-200"
       ></div>
 
-      <!-- PrimeVue: range (أزرق) + handle -->
       <Slider
         v-model="model"
         unstyled

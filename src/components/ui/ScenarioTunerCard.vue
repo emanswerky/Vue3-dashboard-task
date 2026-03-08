@@ -3,14 +3,12 @@
     <h3 class="text-[14px] font-bold text-slate-900">{{ title }}</h3>
     <p class="text-[12px]">{{ subtitle }}</p>
 
-    <!-- Sliders -->
     <div class="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-x-10 gap-y-2">
       <div v-for="s in sliders" :key="s.key">
         <TunerSlider v-model="s.value" :label="s.label" />
       </div>
     </div>
 
-    <!-- Output Snapshot -->
     <div class="mt-2 rounded-[18px] bg-[#0B77D5] p-2">
       <div class="overflow-x-auto">
         <table class="w-full text-[12px] border-separate border-spacing-y-2">
@@ -46,7 +44,6 @@
         </table>
       </div>
     </div>
-    <!-- AI Text -->
     <div class="mt-2 text-center">
       <div
         class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#32f3e9] via-[#4ac6e6] to-[#dc03f8] text-base tracking-tight"
