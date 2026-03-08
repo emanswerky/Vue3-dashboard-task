@@ -32,11 +32,9 @@ export function useCashInBankChart() {
 
       ctx.save()
 
-      // المنطقة الفاتحة في اليمين
       ctx.fillStyle = 'rgba(147,197,253,0.35)'
       ctx.fillRect(startX, chartArea.top, endX - startX, chartArea.bottom - chartArea.top)
 
-      // الخط السفلي
       ctx.strokeStyle = 'rgba(148,163,184,0.7)'
       ctx.lineWidth = 2
       ctx.beginPath()

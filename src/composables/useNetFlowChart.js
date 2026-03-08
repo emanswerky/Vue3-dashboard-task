@@ -6,7 +6,7 @@ export function useNetFlowChart() {
         data: [2.8, 3.3, 3.0, 4.0, 4.8, 5.4, 5.0, 3.6, 0, -2.2, 0, 2.6],
         borderWidth: 3,
         tension: 0.45,
-        fill: false, // ✅ لا يوجد أي gradient وردي
+        fill: false,
         pointRadius: (c) => (c.parsed.y < 0 ? 4 : 3.5),
         pointBackgroundColor: (c) => (c.parsed.y < 0 ? '#ef72b6' : '#ffffff'),
         pointBorderColor: (c) => (c.parsed.y < 0 ? '#ef72b6' : '#3b82f6'),
@@ -38,11 +38,9 @@ export function useNetFlowChart() {
 
       ctx.save()
 
-      // المنطقة الفاتحة يمين
       ctx.fillStyle = 'rgba(147,197,253,0.22)'
       ctx.fillRect(start, chartArea.top, end - start, chartArea.bottom - chartArea.top)
 
-      // الخط الوردي الأفقي على مستوى خط الصفر
       ctx.strokeStyle = 'rgba(239,114,182,0.65)'
       ctx.lineWidth = 1.5
       ctx.beginPath()
@@ -50,7 +48,6 @@ export function useNetFlowChart() {
       ctx.lineTo(chartArea.right, zeroY)
       ctx.stroke()
 
-      // الخط السفلي الرمادي
       ctx.strokeStyle = 'rgba(148,163,184,0.45)'
       ctx.lineWidth = 1.5
       ctx.beginPath()
@@ -81,7 +78,6 @@ export function useNetFlowChart() {
         grid: { display: false },
         border: { display: false },
 
-        // ✅ هذا هو المفتاح: ينزل الخط الوردي لأسفل
         suggestedMin: -2,
         suggestedMax: 9,
       },

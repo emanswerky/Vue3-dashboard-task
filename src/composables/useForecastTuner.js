@@ -9,7 +9,6 @@ export function useForecastTuner() {
     pipelineConfidence: 52,
   })
 
-  // Mock output (نفس اللي في التصميم تقريبًا)
   const output = computed(() => [
     {
       label: 'Gross Profit',
