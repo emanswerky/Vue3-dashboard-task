@@ -4,9 +4,7 @@
     :class="open ? 'translate-x-0' : '-translate-x-full'"
   >
     <div class="flex h-full flex-col items-center py-6">
-      <div class="w-[60px] h-[60px]">
-        <img :src="logo" class="" />
-      </div>
+      <img :src="logo" class="" />
 
       <nav class="mt-6 flex flex-col items-center justify-center gap-4 h-full">
         <div class="md:hidden flex flex-col items-center justify-center gap-4">
