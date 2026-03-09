@@ -26,7 +26,6 @@ export function useCashInBankChart() {
       if (!chartArea) return
 
       const x = scales.x
-
       const startX = x.getPixelForValue(9)
       const endX = x.getPixelForValue(11)
 
