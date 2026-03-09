@@ -27,8 +27,8 @@ export function useCashInBankChart() {
 
       const x = scales.x
 
-      const startX = x.getPixelForValue(9) // Oct
-      const endX = x.getPixelForValue(11) // Dec
+      const startX = x.getPixelForValue(9)
+      const endX = x.getPixelForValue(11)
 
       ctx.save()
 
