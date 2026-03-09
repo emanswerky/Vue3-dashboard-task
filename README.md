@@ -1,44 +1,92 @@
-# Vue3-dashboard-task
+# Vue 3 Dashboard Task
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern and responsive **dashboard interface** built with **Vue 3**, **Tailwind CSS**, and **PrimeVue**.
 
-## Recommended IDE Setup
+This project focuses on converting a UI design into a clean, structured, and maintainable frontend architecture using reusable Vue components.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 🚀 Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Vue 3
+- Tailwind CSS
+- PrimeVue
+- Chart.js
+- PNPM
+- JavaScript
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📊 Features
 
-## Project Setup
+- Responsive dashboard layout
+- KPI cards displaying key business metrics
+- Interactive charts using Chart.js
+- Top navigation bar
+- Sidebar navigation
+- Right-side widgets
+- Reusable Vue components
+- Clean and scalable folder structure
+- Mock data handled using Vue composables
 
-```sh
+---
+
+## 📁 Project Structure
+
+src
+├── assets
+├── components
+│ ├── charts
+│ ├── KpiCard.vue
+│ ├── TopNav.vue
+│ └── Sidebar.vue
+├── composables
+├── constants
+├── layouts
+└── views
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/emanswerky/vue3-dashboard-task.git
+```
+
+Navigate to the project folder
+
+```bash
+cd vue3-dashboard-task
+```
+
+Install dependencies
+
+```bash
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+Run the development server
 
-```sh
-pnpm dev
+```bash
+pnpm run dev
 ```
 
-### Compile and Minify for Production
+---
 
-```sh
-pnpm build
-```
+## 🎯 Project Goal
 
-### Lint with [ESLint](https://eslint.org/)
+The goal of this project is to build a clean and maintainable dashboard UI by:
 
-```sh
-pnpm lint
-```
+- Converting a design into reusable Vue components
+- Maintaining a scalable folder structure
+- Using Tailwind CSS for responsive styling
+- Implementing interactive charts and widgets
+
+---
+
+## 👩‍💻 Author
+
+**Eman Swerky**
+Frontend Developer
