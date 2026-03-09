@@ -43,7 +43,7 @@ src
 ├── composables
 ├── constants
 ├── layouts
-└── views
+└── pages
 
 ---
 
