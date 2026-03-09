@@ -89,4 +89,4 @@ The goal of this project is to build a clean and maintainable dashboard UI by:
 ## 👩‍💻 Author
 
 **Eman Swerky**
-Frontend Developer
+Frontend Developer Vue.js
